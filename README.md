@@ -41,26 +41,6 @@ EOF
 source $HOME/.profile
 go version
 ```
-1. Preparing the server/Required packages installation</br>
-```
-sudo apt update
-sudo apt upgrade -y
-sudo apt-get install libclang-dev
-sudo apt install -y unzip logrotate git jq sed wget curl coreutils systemd
-```
-### Go installation.
-```
-cd $HOME
-curl https://dl.google.com/go/go1.20.1.linux-amd64.tar.gz | sudo tar -C/usr/local -zxvf -
-cat <<'EOF' >>$HOME/.profile
-export GOROOT=/usr/local/go
-export GOPATH=$HOME/go
-export GO111MODULE=on
-export PATH=$PATH:/usr/local/go/bin:$HOME/go/bin
-EOF
-source $HOME/.profile
-go version
-```
 
 ### Download and build binaries
 ```
