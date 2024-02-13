@@ -205,9 +205,8 @@ lavad tx staking create-validator \
 --amount 1000000ulava \
 --pubkey $(lavad tendermint show-validator) \
 --moniker "YOUR_MONIKER_NAME" \
---identity "YOUR_KEYBASE_ID" \
---details "YOUR_DETAILS" \
---website "YOUR_WEBSITE_URL" \
+--identity "FFB0AA51A2DF5955 " \
+--details "i love YTWO" \
 --chain-id lava-testnet-2 \
 --commission-rate 0.05 \
 --commission-max-rate 0.20 \
