@@ -45,11 +45,10 @@ go version
 ### Download and build binaries
 ```
 MONIKER="YOUR MONIKER"
-cd $HOME
-rm -rf lava
-git clone https://github.com/lavanet/lava.git
+cd && rm -rf lava
+git clone https://github.com/lavanet/lava
 cd lava
-git checkout v0.34.0
+git checkout v1.2.0
 ```
 
 ### Build binaries
@@ -224,7 +223,7 @@ lavad tx staking create-validator \
 There have been no updates at the moment, as soon as they come out, we will immediately add them to this section.
 
 Current network:lava-testnet-2
-Current version:v0.34.0
+Current version:v1.2.0
 ```
 
 ### Useful commands
