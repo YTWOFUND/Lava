@@ -48,7 +48,7 @@ MONIKER="YOUR MONIKER"
 cd && rm -rf lava
 git clone https://github.com/lavanet/lava
 cd lava
-git checkout v2.0.0
+git checkout v2.1.3
 ```
 
 ### Build binaries
@@ -230,7 +230,7 @@ sudo systemctl restart lavad
 sudo journalctl -u lavad -f --no-hostname -o cat
 
 Current network:lava-testnet-2
-Current version:v2.0.0
+Current version:v2.1.3
 ```
 
 ### Useful commands
